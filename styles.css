@@ -374,6 +374,221 @@ p {
     margin-top: 40px;
 }
 
+/* Custom inline styles moved from HTML */
+.hero-max-width {
+    max-width: 900px;
+}
+
+.subtitle-large {
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.deck-info {
+    margin-top: 60px;
+    font-size: 18px;
+    color: var(--gray);
+}
+
+.icon-style {
+    width: 32px;
+    height: 32px;
+    stroke: var(--lime);
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.chart-container-custom {
+    padding: 5px 5px 15px 5px;
+    margin: 5px auto 0 auto;
+    width: 100%;
+    max-width: none;
+}
+
+.bar-chart-custom {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 150px;
+}
+
+.bar-chart-traditional {
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.bar-traditional {
+    height: 150px;
+    width: 300px;
+    flex: none;
+    position: relative;
+    background: var(--lime);
+    border-radius: 10px 10px 0 0;
+}
+
+.year-group-slide12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.year-group-slide12 .year-label {
+    color: var(--beige);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.year-group-slide17 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.year-group-slide17 .year-label {
+    color: var(--beige);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* Specific bar heights for traditional charts */
+.bar-height-40 { height: 60px !important; }
+.bar-height-53 { height: 80px !important; }
+.bar-height-71 { height: 107px !important; }
+.bar-height-19 { height: 19%; }
+.bar-height-50 { height: 50%; }
+.bar-height-100 { height: 100%; }
+
+.bar-labels {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    padding: 0 120px;
+    gap: 80px;
+}
+
+.bar-label {
+    color: var(--beige);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.stats-section {
+    margin-top: 20px;
+}
+
+.grid-3-custom {
+    margin-top: 0;
+    gap: 20px;
+}
+
+.stat-card {
+    padding: 20px;
+}
+
+.stat-number {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.stat-description {
+    font-size: 12px;
+}
+
+.revenue-bar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.consumer-bar {
+    width: 80px;
+    background: var(--lime);
+    border-radius: 10px 0 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+/* Specific heights for each year */
+.consumer-bar.year1 { height: 120px; }
+.consumer-bar.year2 { height: 150px; }
+.consumer-bar.year3 { height: 170px; }
+
+.enterprise-bar.year1 { height: 22px; }
+.enterprise-bar.year2 { height: 44px; }
+.enterprise-bar.year3 { height: 66px; }
+
+.enterprise-bar {
+    width: 80px;
+    height: 22px;
+    background: var(--beige);
+    border-radius: 0 10px 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.year-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.total-amount {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--lime);
+    margin-top: 0px;
+}
+
+.year-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--beige);
+}
+
+.legend-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.legend-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.legend-text {
+    font-size: 18px;
+    color: var(--beige);
+}
+
 .architecture-diagram {
     display: flex;
     justify-content: space-between;
@@ -391,6 +606,7 @@ p {
     flex: 1;
     margin: 0 20px;
 }
+
 
 .arch-box h3 {
     color: var(--lime);
