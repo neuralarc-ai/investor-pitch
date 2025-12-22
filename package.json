@@ -2,7 +2,7 @@
   "name": "investor-pitch",
   "version": "1.0.0",
   "description": "Helium AI Investor Pitch Deck",
-  "main": "investor-deck.html",
+  "main": "index.html",
   "scripts": {
     "dev": "serve .",
     "build": "echo 'No build step required for static site'",
