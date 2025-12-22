@@ -1,0 +1,17 @@
+{
+  "name": "investor-pitch",
+  "version": "1.0.0",
+  "description": "Helium AI Investor Pitch Deck",
+  "main": "investor-deck.html",
+  "scripts": {
+    "dev": "serve .",
+    "build": "echo 'No build step required for static site'",
+    "start": "serve ."
+  },
+  "keywords": ["investor", "pitch", "deck", "ai", "helium"],
+  "author": "Neural Arc",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
